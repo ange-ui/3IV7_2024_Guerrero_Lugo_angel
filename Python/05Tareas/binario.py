@@ -1,7 +1,7 @@
 def binario_a_decimal(binario):
     decimal = int(binario, 2)
     return decimal
-
+2
 def decimal_a_binario(decimal):
     binario = bin(decimal)[2:]  
     return binario
@@ -23,5 +23,4 @@ def conversor():
     else:
         print("Opción no válida. Por favor, elige 1 o 2.")
 
-# Ejecutar el conversor
 conversor()
